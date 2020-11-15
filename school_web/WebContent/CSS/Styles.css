@@ -1,0 +1,247 @@
+body {
+	margin: 0;
+	min-height: 100vh;
+	font-family: arial;
+	color: black;
+	font-size: 30px;
+	background-image: linear-gradient(to bottom right, #1D7FBC, #9C1BA7, #CC7510);
+	;
+}
+table{
+	width: 90%;
+	margin: 10% auto;
+	
+}
+.display-info-table {
+	font-size: 15px;
+	font-family: arial;
+	text-align: center;
+}
+
+.display-info-title {
+	text-align: Left;
+}
+
+input, a {
+	border: none;
+	border-bottom: 2px solid black;
+	background: transparent;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	margin-left: 5px;
+	margin-right: 5px;
+	background: transparent;
+}
+
+select {
+	border: none;
+	border-bottom: 2px solid black;
+	border-radius: none;
+	background: transparent;
+	height: 32px;
+	-webkit-appearance: none;
+}
+
+.main-info {
+
+	position: absolute;
+	top: 30%;
+	left: 55%;
+	transform: translate(-50%, -50%);
+}
+
+@
+keyframes slideshow_mainMenu { 0%{
+	margin-bottom: 0
+}
+
+100%{
+margin-left
+
+
+:
+
+ 
+
+-800%;
+}
+}
+.sidenav {
+	height: 100%;
+	width: 190px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background: black;
+	opacity: 75%;
+	overflow-x: hidden;
+	padding-top: 10px;
+}
+
+.sidenav
+ 
+a
+,
+.dropdown-btn
+{
+padding
+:
+6px
+8px
+6px
+16px;
+text-decoration
+:
+none;
+font-size
+:
+20px;
+color
+:
+white;
+display
+:
+block;
+border
+:
+none;
+background
+:
+none;
+width
+:
+100%;
+text-align
+:
+left;
+cursor
+:
+pointer;
+outline
+:
+none;
+}
+.sidenav
+ 
+a
+:hover
+,
+.dropdown-btn
+:hover
+{
+color
+:
+#2badac;
+}
+.main
+{
+margin-left
+:
+200px; /* Same as the width of the sidenav */
+font-size
+:
+20px; /* Increased text to enable scrolling */
+padding
+:
+0px
+10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active
+{
+background
+:
+transparent;
+color
+:
+white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container
+{
+display
+:
+none;
+background-color
+:
+#262626;
+padding-left
+:
+8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+	.sidenav a {
+		font-size: 18px;
+	}
+}
+
+.sidenav a, .dropdown-btn {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	display: block;
+	border: none;
+	background: none;
+	width: 100%;
+	text-align: left;
+	cursor: pointer;
+	outline: none;
+}
+
+.sidenav a:hover, .dropdown-btn:hover {
+	color: #2badac;
+}
+
+.main {
+	margin-left: 200px; /* Same as the width of the sidenav */
+	font-size: 20px; /* Increased text to enable scrolling */
+	padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+	background: transparent;
+	color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+	display: none;
+	background-color: #262626;
+	padding-left: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media
+screen
+and
+(max-height:
+450px)
+{
+.sidenav
+{
+padding-top
+:
+15px;
+}
+.sidenav
+ 
+a
+{
+font-size
+:
+18px;
+}
+}
